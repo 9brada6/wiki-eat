@@ -1,0 +1,35 @@
+/*
+	Aliment Post Type.
+*/
+#qt_we_ingredients_editor_toolbar
+	> input:not(#qt_we_ingredients_editor_strong):not(#qt_we_ingredients_editor_em):not(#qt_we_ingredients_editor_link):not(#qt_we_ingredients_editor_del) {
+	display: none;
+}
+
+.we-js-wp-link-hide-non-ingredient {
+	display: none;
+}
+
+.we-aliment-image {
+	margin: 4px;
+	padding: 5px;
+	background-color: #f3f3f3;
+	border: 1px solid #c2c2c2;
+}
+
+.wp-list-table.posts .type-post > th,
+.wp-list-table.posts .type-post > td {
+	vertical-align: middle;
+}
+
+.mo-openid-app-icons .btn {
+	width: 100% !important;
+}
+
+.user-comment-shortcuts-wrap,
+.user-admin-bar-front-wrap,
+.user-url-wrap,
+.user-description-wrap,
+.user-pass1-wrap {
+	display: none;
+}

@@ -1,0 +1,78 @@
+/*
+Theme Name: Wiki-Eat
+Author: Bradatan Dorin
+Description: A Wiki for aliments and ingredients.
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Version: 1.0.0
+Text Domain: wiki-eat
+Domain Path: /languages
+*/
+
+main {
+	min-height: calc(100vh - 200px);
+}
+
+.card-deck .ia-blogroll-article {
+	flex-basis: 300px;
+	max-width: 100%;
+}
+
+.fb-comments.fb_iframe_widget iframe {
+	width: 100% !important;
+}
+
+#loginform > p {
+	display: none;
+}
+
+#loginform .nsl-container-buttons > a {
+	margin: auto;
+}
+
+.mo-openid-app-icons > p {
+	margin-bottom: 0.5rem !important;
+}
+
+.mo-openid-app-icons + br {
+	display: none;
+}
+
+.aside-post-wrapper-link:hover {
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+.blogroll-aliment-description {
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+	-webkit-box-orient: vertical;
+}
+
+.blogroll-thumbnail {
+	right: 0;
+}
+
+.carousel-control-prev {
+	background: linear-gradient(
+		270deg,
+		rgba(255, 255, 255, 0) 0%,
+		rgba(49, 49, 49, 0.5) 100%
+	);
+}
+
+.carousel-control-next {
+	background: linear-gradient(
+		90deg,
+		rgba(255, 255, 255, 0) 0%,
+		rgba(49, 49, 49, 0.5) 100%
+	);
+}
+
+.blogroll-aliment-bars {
+	z-index: 1;
+}
+
+.opacity-50 {
+	opacity: 0.5;
+}

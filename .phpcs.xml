@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="Ingredy Linter Rules" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/squizlabs/PHP_CodeSniffer/master/phpcs.xsd">
+
+	<description>A custom set of rules for Ingredy WordPress theme.</description>
+
+	<exclude-pattern>/vendor/*</exclude-pattern>
+	<exclude-pattern>*.min.js</exclude-pattern>
+	<exclude-pattern>/node_modules/*</exclude-pattern>
+	<exclude-pattern>.vscode/*</exclude-pattern>
+	<exclude-pattern>.phan/*</exclude-pattern>
+
+	<config name="minimum_supported_wp_version" value="4.9"/>
+	<rule ref="WordPress">
+		<!-- Remove _e and _ex from checking. -->
+		<exclude name="WordPress.Security.EscapeOutput.UnsafePrintingFunction" />
+		<!-- We don't need translators comment. -->
+  		<exclude name="WordPress.WP.I18n.MissingTranslatorsComment" />
+		<exclude name="Generic.Formatting.MultipleStatementAlignment.NotSameWarning" />
+		<exclude name="Generic.PHP.DisallowShortOpenTag.EchoFound" />
+		<exclude name="Generic.WhiteSpace.ScopeIndent.IncorrectExact" />
+		<exclude name="Generic.Commenting.DocComment.MissingShort"/>
+	</rule>
+
+	<!-- Minimum PHP version. -->
+	<config name="testVersion" value="7.0-"/>
+	<rule ref="PHPCompatibilityWP"/>
+
+
+	<rule ref="NeutronStandard">
+		<!--
+			There must be multiple newlines between functions, so we can make
+			some groups with simialar functions.
+		-->
+ 		<exclude name="NeutronStandard.Whitespace.DisallowMultipleNewlines.MultipleNewlines" />
+		<exclude name="NeutronStandard.Functions.LongFunction" />
+		<exclude name="NeutronStandard.AssignAlign.DisallowAssignAlign.Aligned" />
+		<exclude name="NeutronStandard.Arrays.DisallowLongformArray.LongformArray" />
+	</rule>
+
+	<rule ref="Generic.CodeAnalysis.UnusedFunctionParameter"/>
+	<rule ref="Generic.Commenting.Todo"/>
+	<rule ref="Squiz.Commenting" />
+
+	<rule ref="PEAR.Commenting" >
+		<exclude name="PEAR.Commenting.FileComment" />
+		<exclude name="PEAR.Commenting.ClassComment.MissingCategoryTag" />
+		<exclude name="PEAR.Commenting.ClassComment.MissingPackageTag" />
+		<exclude name="PEAR.Commenting.ClassComment.MissingAuthorTag" />
+		<exclude name="PEAR.Commenting.ClassComment.MissingLicenseTag" />
+		<exclude name="PEAR.Commenting.ClassComment.MissingLinkTag" />
+	</rule>
+
+
+
+
+	<rule ref="WordPress.WP.I18n">
+ 		<!-- Set the default localization text -->
+	  	<properties>
+			<property name="text_domain" type="array" value="wiki-eat" />
+		</properties>
+ 	</rule>
+
+	<rule ref="WordPress.NamingConventions.PrefixAllGlobals"> -->
+		<!-- In templates should not exist globals if called via get_template. -->
+		<exclude-pattern>./templates/**</exclude-pattern>
+		<properties>
+			<property name="prefixes" type="array">
+				<element value="we"/>
+			</property>
+		</properties>
+	</rule>
+
+	<!--
+		In a function without name, put 0 space. function(){...}
+		This is turned off by default, but the WP core uses it like this.
+	-->
+ 	<rule ref="WordPress.WhiteSpace.ControlStructureSpacing">
+		<properties>
+			<property name="spaces_before_closure_open_paren" value="0"/>
+		</properties>
+	</rule>
+
+ 	<!-- Tell the wordpress that we work on a theme, so file names should be in the coding standards -->
+	<rule ref="WordPress.Files.FileName">
+		<properties>
+			<property name="is_theme" value="true" />
+		</properties>
+	</rule>
+
+
+	<rule ref="WordPress.Security.EscapeOutput">
+		<properties>
+			<!-- These functions escapes data. -->
+			<property name="customEscapingFunctions" type="array">
+			</property>
+
+			<!-- These functions return pre-escaped output. -->
+			<property name="customAutoEscapedFunctions" type="array">
+				<element value="__"/>
+				<element value="_x"/>
+				<element value="_ex"/>
+			</property>
+
+			<!-- These functions will be verified if they echo escaped output. -->
+			<property name="customPrintingFunctions" type="array">
+			</property>
+		</properties>
+
+
+
+	</rule>
+
+</ruleset>

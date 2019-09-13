@@ -1,0 +1,69 @@
+{
+	"folders": [
+		{
+			"name": "wordpress",
+			"path": "W:\\xampp\\htdocs\\wordpress"
+		},
+		{
+			"name": "ingrediente-alimente",
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true,
+			".phpcs.xml": true,
+			"vendor": true,
+			".phan": true,
+			".vscode": true,
+			".phpmd.xml": true,
+			"composer.*": true,
+		},
+
+		"editor.tabSize": 4,
+		"editor.insertSpaces": false,
+
+
+		// NPM
+			"npm.exclude": "**/wp-content/+(themes|plugins)/!(ingrediente-alimente)",
+
+
+		// Plugins.
+			// PHP
+				// Intellisense
+				// We use the Intelephense plugin.
+					"php.suggest.basic": false,
+				// Debugger
+				// ..
+				// Linter
+					"phpsab.executablePathCS": "wp-content/themes/wiki-eat/vendor/bin/phpcs.bat",
+				// Formatter
+
+				// Static Analyzer
+					"phan.enableGoToDefinition": false,
+					"phan.unusedVariableDetection": true,
+					"phan.enableCompletion": false,
+					"phan.enableDebugLog": false,
+					"phan.enableHover": false,
+					"phan.redundantConditionDetection": true,
+					"phan.analyzedProjectDirectory": "W:\\xampp\\htdocs\\wordpress\\wp-content\\themes\\ingrediente-alimente",
+				// Mess Detector
+					"phpmd.rules": "W:\\xampp\\htdocs\\wordpress\\wp-content\\themes\\ingrediente-alimente\\.phpmd.xml",
+
+
+
+					"eslint.workingDirectories": [
+						"./"
+					],
+					"cSpell.words": [
+						"Alim",
+						"endforeach"
+					],
+					"git.ignoreLimitWarning": true,
+					//"eslint.provideLintTask": true,
+	}
+}

@@ -1,0 +1,47 @@
+
+$primary: #008822 !default;
+$secondary: rgb(40, 40, 40) !default;
+
+
+/// Modify Navigation Bar Defaults.
+	$navbar-dark-color: white;
+	$navbar-dark-hover-color: rgba(256, 256, 256, 0.85);
+	$navbar-dark-active-color: rgb(224, 224, 224);
+
+	$navbar-brand-padding-y: 0;
+
+
+// Import Bootstrap
+@import "./bootstrap-scss/bootstrap";
+
+
+
+	/// Navigation Bar.
+	/// Overwrite Search Bar style.
+	#main-navbar-searchform-container {
+
+		.form-control {
+			color: $white;
+			background-color: darken($primary, 7%);
+			border-color: darken($primary, 7%);
+
+			&::placeholder{
+				color: scale-color($white, $alpha: -20%);
+			}
+		}
+
+		.btn {
+			color: $white;
+			background-color: darken($primary, 7%);
+			border-color: darken($primary, 7%);
+		}
+
+	}
+
+
+// Footer
+
+.bg-footer {
+	background: linear-gradient(0deg, rgba(9,44,19,1) 0%, rgba(0,142,21,1) 100%) !important;
+
+}

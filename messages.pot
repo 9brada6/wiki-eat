@@ -1,0 +1,783 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-13 00:18+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: category.php:20
+#, php-format
+msgctxt "No aliments in category"
+msgid "Aliments from category \"%s\""
+msgstr ""
+
+#: category.php:38
+msgctxt "No aliments in category"
+msgid "No aliments in this category"
+msgstr ""
+
+#: single-ingredient.php:26 single.php:33
+msgctxt "aside tabs title"
+msgid "Aliments"
+msgstr ""
+
+#: single-ingredient.php:31 single.php:38
+msgctxt "aside tabs title"
+msgid "Categories"
+msgstr ""
+
+#: inc/bootstrap-pagination.php:36
+msgctxt "pagination"
+msgid "« Prev"
+msgstr ""
+
+#: inc/bootstrap-pagination.php:37
+msgctxt "pagination"
+msgid "Next »"
+msgstr ""
+
+#: inc/link-between-aliment-and-company.php:30
+msgctxt "backend"
+msgid "Company:"
+msgstr ""
+
+#: inc/link-between-aliment-and-company.php:51
+msgctxt "backend"
+msgid "Search for company"
+msgstr ""
+
+#: inc/manage-post-types.php:95
+msgctxt "post type"
+msgid "Ingredients"
+msgstr ""
+
+#: inc/manage-post-types.php:96
+msgctxt "post type"
+msgid "Ingredient"
+msgstr ""
+
+#: inc/manage-post-types.php:97 inc/manage-post-types.php:125
+#: inc/aliment/create-post-type.php:45
+msgctxt "post type"
+msgid "Add New"
+msgstr ""
+
+#: inc/manage-post-types.php:98
+msgctxt "post type"
+msgid "Add New Ingredient"
+msgstr ""
+
+#: inc/manage-post-types.php:99
+msgctxt "post type"
+msgid "Edit Ingredient"
+msgstr ""
+
+#: inc/manage-post-types.php:100
+msgctxt "post type"
+msgid "New Ingredient"
+msgstr ""
+
+#: inc/manage-post-types.php:101
+msgctxt "post type"
+msgid "View Ingredient"
+msgstr ""
+
+#: inc/manage-post-types.php:102
+msgctxt "post type"
+msgid "View Ingredients"
+msgstr ""
+
+#: inc/manage-post-types.php:103
+msgctxt "post type"
+msgid "Search Ingredients"
+msgstr ""
+
+#: inc/manage-post-types.php:104
+msgctxt "post type"
+msgid "No Ingredients found"
+msgstr ""
+
+#: inc/manage-post-types.php:105
+msgctxt "post type"
+msgid "No Ingredients found in Trash"
+msgstr ""
+
+#: inc/manage-post-types.php:106
+msgctxt "post type"
+msgid "Parent Ingredient"
+msgstr ""
+
+#: inc/manage-post-types.php:107
+msgctxt "post type"
+msgid "All Ingredients"
+msgstr ""
+
+#: inc/manage-post-types.php:108
+msgctxt "post type"
+msgid "Ingredient Archives"
+msgstr ""
+
+#: inc/manage-post-types.php:109
+msgctxt "post type"
+msgid "Ingredient Attributes"
+msgstr ""
+
+#: inc/manage-post-types.php:110
+msgctxt "post type"
+msgid "Insert into Ingredient"
+msgstr ""
+
+#: inc/manage-post-types.php:111
+msgctxt "post type"
+msgid "Upload to this Ingredient"
+msgstr ""
+
+#: inc/manage-post-types.php:123
+msgctxt "post type"
+msgid "Companies"
+msgstr ""
+
+#: inc/manage-post-types.php:124
+msgctxt "post type"
+msgid "Company"
+msgstr ""
+
+#: inc/manage-post-types.php:126
+msgctxt "post type"
+msgid "Add New Company"
+msgstr ""
+
+#: inc/manage-post-types.php:127
+msgctxt "post type"
+msgid "Edit Company"
+msgstr ""
+
+#: inc/manage-post-types.php:128
+msgctxt "post type"
+msgid "New Company"
+msgstr ""
+
+#: inc/manage-post-types.php:129
+msgctxt "post type"
+msgid "View Company"
+msgstr ""
+
+#: inc/manage-post-types.php:130
+msgctxt "post type"
+msgid "View Companies"
+msgstr ""
+
+#: inc/manage-post-types.php:131
+msgctxt "post type"
+msgid "Search Companies"
+msgstr ""
+
+#: inc/manage-post-types.php:132
+msgctxt "post type"
+msgid "No Companies found"
+msgstr ""
+
+#: inc/manage-post-types.php:133
+msgctxt "post type"
+msgid "No Companies found in Trash"
+msgstr ""
+
+#: inc/manage-post-types.php:134
+msgctxt "post type"
+msgid "Parent Company"
+msgstr ""
+
+#: inc/manage-post-types.php:135
+msgctxt "post type"
+msgid "All Companies"
+msgstr ""
+
+#: inc/manage-post-types.php:136
+msgctxt "post type"
+msgid "Company Archives"
+msgstr ""
+
+#: inc/manage-post-types.php:137
+msgctxt "post type"
+msgid "Company Attributes"
+msgstr ""
+
+#: inc/manage-post-types.php:138
+msgctxt "post type"
+msgid "Insert into Company"
+msgstr ""
+
+#: inc/manage-post-types.php:139
+msgctxt "post type"
+msgid "Upload to this Company"
+msgstr ""
+
+#: inc/manage-post-types.php:153
+msgid "Ingredients Categories"
+msgstr ""
+
+#: inc/navigation-menus.php:5
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/aliment/backend-image-selection.php:32
+msgctxt "backend"
+msgid "Select images for aliment:"
+msgstr ""
+
+#: inc/aliment/backend-image-selection.php:43
+msgctxt "backend"
+msgid "Select images for aliment"
+msgstr ""
+
+#: inc/aliment/backend-image-selection.php:44
+msgctxt "backend"
+msgid "Use this image"
+msgstr ""
+
+#: inc/aliment/backend-image-selection.php:46
+msgctxt "backend"
+msgid "Set images for aliments"
+msgstr ""
+
+#: inc/aliment/backend-image-selection.php:52
+msgctxt "backend"
+msgid "No image for aliments selected."
+msgstr ""
+
+#: inc/aliment/backend-image-selection.php:150
+msgctxt "backend"
+msgid "Images"
+msgstr ""
+
+#: inc/aliment/backend-ingredients-editor.php:34
+msgctxt "backend"
+msgid "Ingredients list:"
+msgstr ""
+
+#: inc/aliment/backend-ingredients-editor.php:38
+msgctxt "backend"
+msgid "Only the links to ingredients will be valid."
+msgstr ""
+
+#: inc/aliment/backend-ingredients-editor.php:327
+msgctxt "backend"
+msgid "Ingredients"
+msgstr ""
+
+#: inc/aliment/create-post-type.php:43
+msgctxt "post type"
+msgid "Aliments"
+msgstr ""
+
+#: inc/aliment/create-post-type.php:44
+msgctxt "post type"
+msgid "Aliment"
+msgstr ""
+
+#: inc/aliment/create-post-type.php:46
+msgctxt "post type"
+msgid "Add New Aliment"
+msgstr ""
+
+#: inc/aliment/create-post-type.php:47
+msgctxt "post type"
+msgid "Edit Aliment"
+msgstr ""
+
+#: inc/aliment/create-post-type.php:48
+msgctxt "post type"
+msgid "New Aliment"
+msgstr ""
+
+#: inc/aliment/create-post-type.php:49
+msgctxt "post type"
+msgid "View Aliment"
+msgstr ""
+
+#: inc/aliment/create-post-type.php:50
+msgctxt "post type"
+msgid "View Aliments"
+msgstr ""
+
+#: inc/aliment/create-post-type.php:51
+msgctxt "post type"
+msgid "Search Aliments"
+msgstr ""
+
+#: inc/aliment/create-post-type.php:52
+msgctxt "post type"
+msgid "No Aliments found"
+msgstr ""
+
+#: inc/aliment/create-post-type.php:53
+msgctxt "post type"
+msgid "No Aliments found in Trash"
+msgstr ""
+
+#: inc/aliment/create-post-type.php:54
+msgctxt "post type"
+msgid "Parent Aliment"
+msgstr ""
+
+#: inc/aliment/create-post-type.php:55
+msgctxt "post type"
+msgid "All Aliments"
+msgstr ""
+
+#: inc/aliment/create-post-type.php:56
+msgctxt "post type"
+msgid "Aliment Archives"
+msgstr ""
+
+#: inc/aliment/create-post-type.php:57
+msgctxt "post type"
+msgid "Aliment Attributes"
+msgstr ""
+
+#: inc/aliment/create-post-type.php:58
+msgctxt "post type"
+msgid "Insert into Aliment"
+msgstr ""
+
+#: inc/aliment/create-post-type.php:59
+msgctxt "post type"
+msgid "Upload to this Aliment"
+msgstr ""
+
+#: inc/functions/theme-functions.php:96
+msgid "The greatest project you'll ever work on is you."
+msgstr ""
+
+#: inc/functions/theme-functions.php:97 inc/functions/theme-functions.php:175
+#: inc/functions/theme-functions.php:181 inc/functions/theme-functions.php:241
+#: inc/functions/theme-functions.php:319
+msgid "Unknown"
+msgstr ""
+
+#: inc/functions/theme-functions.php:102
+msgid ""
+"Your worst enemy cannot harm you as much as your own unguarded thoughts."
+msgstr ""
+
+#: inc/functions/theme-functions.php:108
+msgid "Success is the sum of small efforts—repeated day-in and day-out."
+msgstr ""
+
+#: inc/functions/theme-functions.php:114
+msgid "Take care of your body. It’s the only place you have to live."
+msgstr ""
+
+#: inc/functions/theme-functions.php:120
+msgid "You may have to fight a battle more than once to win it."
+msgstr ""
+
+#: inc/functions/theme-functions.php:126
+msgid "Even if you fall on your face, you’re still moving forward."
+msgstr ""
+
+#: inc/functions/theme-functions.php:132
+msgid "A journey of a thousand miles begins with a single step."
+msgstr ""
+
+#: inc/functions/theme-functions.php:138
+msgid "Let food be thy medicine, thy medicine shall be thy food."
+msgstr ""
+
+#: inc/functions/theme-functions.php:144
+msgid "If you keep good food in your fridge, you will eat good food."
+msgstr ""
+
+#: inc/functions/theme-functions.php:150
+msgid "Your diet is a bank account. Good food choices are good investments. "
+msgstr ""
+
+#: inc/functions/theme-functions.php:156
+msgid "Early to bed and early to rise, makes a man healthy wealthy and wise"
+msgstr ""
+
+#: inc/functions/theme-functions.php:162
+msgid ""
+"Physical fitness is not only one of the most important keys to a healthy "
+"body, it is the basis of dynamic and creative intellectual activity."
+msgstr ""
+
+#: inc/functions/theme-functions.php:168
+msgid "The greatest wealth is Health."
+msgstr ""
+
+#: inc/functions/theme-functions.php:174
+msgid "Just because you're not sick doesn't mean you're healthy."
+msgstr ""
+
+#: inc/functions/theme-functions.php:180
+msgid "If you don't take care of your body, where are you going to live?"
+msgstr ""
+
+#: inc/functions/theme-functions.php:186
+msgid ""
+"Health is a state of complete harmony of the body, mind and spirit. When one "
+"is free from physical disabilities and mental distractions, the gates of the "
+"soul open."
+msgstr ""
+
+#: inc/functions/theme-functions.php:192
+msgid ""
+"Health is like money, we never have a true idea of its value until we lose "
+"it."
+msgstr ""
+
+#: inc/functions/theme-functions.php:198
+msgid ""
+"Time And health are two precious assets that we don't recognize and "
+"appreciate until they have been depleted."
+msgstr ""
+
+#: inc/functions/theme-functions.php:204
+msgid "From the bitterness of disease man learns the sweetness of health."
+msgstr ""
+
+#: inc/functions/theme-functions.php:205
+msgid "Catalan Proverb"
+msgstr ""
+
+#: inc/functions/theme-functions.php:210
+msgid "Health and cheerfulness naturally beget each other."
+msgstr ""
+
+#: inc/functions/theme-functions.php:216
+msgid "Your body is a temple, but only if you treat it as one."
+msgstr ""
+
+#: inc/functions/theme-functions.php:222
+msgid "Our bodies are our gardens - our wills are our gardeners."
+msgstr ""
+
+#: inc/functions/theme-functions.php:228
+msgid "Health is not simply the absence of sickness."
+msgstr ""
+
+#: inc/functions/theme-functions.php:234
+msgid "An apple a day keeps the doctor away."
+msgstr ""
+
+#: inc/functions/theme-functions.php:235
+msgid "Proverb"
+msgstr ""
+
+#: inc/functions/theme-functions.php:240
+msgid "True healthcare reform starts in your kitchen, not in Washington."
+msgstr ""
+
+#: inc/functions/theme-functions.php:246
+msgid ""
+"The only way to keep your health is to eat what you don't want, drink what "
+"you don't like, and do what you'd rather not."
+msgstr ""
+
+#: inc/functions/theme-functions.php:252
+msgid ""
+"To keep the body in good health is a duty, for otherwise we shall not be "
+"able to trim the lamp of wisdom, and keep our mind strong and clear. Water "
+"surrounds the lotus flower, but does not wet its petals."
+msgstr ""
+
+#: inc/functions/theme-functions.php:258
+msgid ""
+"Now there are more overweight people in America than average-weight people. "
+"So overweight people are now average."
+msgstr ""
+
+#: inc/functions/theme-functions.php:264
+msgid "Health is a relationship between you and your body."
+msgstr ""
+
+#: inc/functions/theme-functions.php:270
+msgid ""
+"He who takes medicine and neglects to diet wastes the skill of his doctors."
+msgstr ""
+
+#: inc/functions/theme-functions.php:271
+msgid "Chinese Proverb"
+msgstr ""
+
+#: inc/functions/theme-functions.php:276
+msgid "Health of body and mind is a great blessing, if we can bear it."
+msgstr ""
+
+#: inc/functions/theme-functions.php:282
+msgid "It is health that is the real wealth and not pieces of gold and silver."
+msgstr ""
+
+#: inc/functions/theme-functions.php:288
+msgid "It is easier to change a man's religion than to change his diet."
+msgstr ""
+
+#: inc/functions/theme-functions.php:294
+msgid ""
+"Most people work hard and spend their health trying to achieve wealth. Then "
+"they retire and spend their wealth trying to get back their health."
+msgstr ""
+
+#: inc/functions/theme-functions.php:300
+msgid ""
+"As I see it, every day you do one of two things: build health or produce "
+"disease in yourself."
+msgstr ""
+
+#: inc/functions/theme-functions.php:306
+msgid ""
+"Keeping your body healthy is an expression of gratitude to the whole cosmos "
+"- the trees, the clouds, everything."
+msgstr ""
+
+#: inc/functions/theme-functions.php:312
+msgid "The healthy person has many wishes, but the sick person has only one."
+msgstr ""
+
+#: inc/functions/theme-functions.php:313
+msgid "Indian Proverb"
+msgstr ""
+
+#: inc/functions/theme-functions.php:318
+msgid "They say, \"Money talks.\", but what is your health saying?"
+msgstr ""
+
+#: inc/functions/theme-functions.php:324
+msgid ""
+"The wise man should consider that human health is the greatest of human "
+"blessings."
+msgstr ""
+
+#: inc/functions/theme-functions.php:330
+msgid "Good health shapes an expression of experiences."
+msgstr ""
+
+#: inc/functions/theme-functions.php:336
+msgid "Muddy water is best cleared by leaving it alone."
+msgstr ""
+
+#: inc/functions/theme-functions.php:342
+msgid ""
+"If we wait for the moment when everything, absolutely everything is ready, "
+"we shall never begin."
+msgstr ""
+
+#: inc/functions/theme-functions.php:348
+msgid ""
+"Nothing is so fatiguing as the eternal hanging on of an uncompleted task."
+msgstr ""
+
+#: inc/functions/theme-functions.php:354
+msgid ""
+"You are stronger than your challenges and your challenges are making you "
+"stronger."
+msgstr ""
+
+#: inc/functions/theme-functions.php:360
+msgid ""
+"Know well what leads you forward and what holds you back, and choose the "
+"path that leads you to wisdom."
+msgstr ""
+
+#: inc/functions/theme-functions.php:366
+msgid "The best way to predict the future is to create it."
+msgstr ""
+
+#: inc/functions/theme-functions.php:372
+msgid ""
+"Setting goals is the first step in turning the invisible into the visible."
+msgstr ""
+
+#: inc/post/class-bootstrap-carousel.php:164
+msgctxt "carousel, accessibility text"
+msgid "Previous"
+msgstr ""
+
+#: inc/post/class-bootstrap-carousel.php:169
+msgctxt "carousel, accessibility text"
+msgid "Next"
+msgstr ""
+
+#: inc/walkers/class-wp-bootstrap-navwalker.php:366
+msgid "Add a menu"
+msgstr ""
+
+#: templates/aside/aliments-aside-roll.php:35
+msgctxt "No post thumbnail text"
+msgid "No image available"
+msgstr ""
+
+#: templates/blogroll/aliment-ingredients-bars.php:11
+#: templates/post/aliment-ingredients-bar.php:11
+msgctxt "ingredients-bar"
+msgid "The ingredients bar couldn't be calculated"
+msgstr ""
+
+#: templates/blogroll/aliment-ingredients-bars.php:93
+#: templates/post/aliment-ingredients-bar.php:93
+msgctxt "ingredients-bar"
+msgid "Healthy ingredients:"
+msgstr ""
+
+#: templates/blogroll/aliment-ingredients-bars.php:94
+#: templates/blogroll/aliment-ingredients-bars.php:101
+#: templates/blogroll/aliment-ingredients-bars.php:108
+#: templates/post/aliment-ingredients-bar.php:94
+#: templates/post/aliment-ingredients-bar.php:101
+#: templates/post/aliment-ingredients-bar.php:108
+#, php-format
+msgctxt "ingredients-bar"
+msgid "%s is natural"
+msgid_plural "%s are natural"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/blogroll/aliment-ingredients-bars.php:95
+#: templates/blogroll/aliment-ingredients-bars.php:102
+#: templates/blogroll/aliment-ingredients-bars.php:109
+#: templates/post/aliment-ingredients-bar.php:95
+#: templates/post/aliment-ingredients-bar.php:102
+#: templates/post/aliment-ingredients-bar.php:109
+#, php-format
+msgctxt "ingredients-bar"
+msgid "%s is artificial"
+msgid_plural "%s are artificial"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/blogroll/aliment-ingredients-bars.php:100
+#: templates/post/aliment-ingredients-bar.php:100
+msgctxt "ingredients-bar"
+msgid "Moderate health ingredients:"
+msgstr ""
+
+#: templates/blogroll/aliment-ingredients-bars.php:107
+#: templates/post/aliment-ingredients-bar.php:107
+msgctxt "ingredients-bar"
+msgid "Unhealthy ingredients:"
+msgstr ""
+
+#: templates/blogroll/aliment-old.php:11
+msgid "To article"
+msgstr ""
+
+#: templates/blogroll/aliment.php:17 templates/blogroll/ingredient.php:17
+msgctxt "blogroll"
+msgid "No image available"
+msgstr ""
+
+#: templates/blogroll/aliment.php:34
+msgctxt "blogroll"
+msgid "Ingredients:"
+msgstr ""
+
+#: templates/blogroll/aliment.php:38
+msgctxt "blogroll"
+msgid "This aliment has no ingredients."
+msgstr ""
+
+#: templates/blogroll/aliment.php:44 templates/blogroll/ingredient.php:34
+msgctxt "blogroll"
+msgid "To article"
+msgstr ""
+
+#: templates/modals/login-form.php:6
+msgctxt "accessibility"
+msgid "Login form popup"
+msgstr ""
+
+#: templates/modals/login-form.php:15
+msgctxt "modal title"
+msgid "Options"
+msgstr ""
+
+#: templates/modals/login-form.php:17
+msgctxt "modal title"
+msgid "Login"
+msgstr ""
+
+#: templates/modals/login-form.php:43
+msgctxt "login modal"
+msgid "My profile"
+msgstr ""
+
+#: templates/modals/login-form.php:47
+msgctxt "logout modal"
+msgid "Logout"
+msgstr ""
+
+#: templates/modals/login-form.php:55
+msgctxt "login modal"
+msgid "Edit Aliments"
+msgstr ""
+
+#: templates/navbar/navbar.php:3
+msgid "Back to home"
+msgstr ""
+
+#: templates/navbar/navbar.php:9
+msgctxt "main navbar"
+msgid "Aliments wiki"
+msgstr ""
+
+#: templates/navbar/navbar.php:32
+msgctxt "navbar button text"
+msgid "My account"
+msgstr ""
+
+#: templates/navbar/navbar.php:37
+msgctxt "navbar button text"
+msgid "Login"
+msgstr ""
+
+#: templates/navbar/searchform.php:6
+msgctxt "top navigation bar, search placeholder"
+msgid "Search..."
+msgstr ""
+
+#: templates/post/aliment-carousel.php:9
+msgid "No images for aliment available."
+msgstr ""
+
+#: templates/post/aliment-comments.php:3
+#: templates/post/ingredient-comments.php:3
+msgctxt "post comments title"
+msgid "Comments:"
+msgstr ""
+
+#: templates/post/aliment-description.php:3
+#: templates/post/ingredient-description.php:3
+msgctxt "post title"
+msgid "Description:"
+msgstr ""
+
+#: templates/post/aliment-description.php:9
+msgid "No description for this aliment available."
+msgstr ""
+
+#: templates/post/aliment-ingredients-text.php:3
+msgctxt "front-end, aliment post type, section title"
+msgid "Ingredients:"
+msgstr ""
+
+#: templates/post/aliment-ingredients-text.php:12
+msgid "No ingredients for this aliment added."
+msgstr ""
+
+#: templates/post/ingredient-description.php:9
+msgid "No description for this ingredient available."
+msgstr ""

@@ -1,0 +1,12 @@
+{
+	"extends": [
+		"eslint:recommended",
+		"google",
+		"standard",
+		"prettier"
+	],
+	"env": {
+		"jquery": true,
+		"browser": true
+	}
+  }
